@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Portifólio</title>
 </head>
 <body>
@@ -15,9 +16,20 @@
         </ul>
     </nav>
     <div id="choices">
-        <a href="curriculo.html"><h1>Currículo</h1></a>
-        <a href=""><h1>Exercícios</h1></a>
-        <a href="projetos.html"><h1>Projetos</h1></a>
+        <h1 onclick="show(this.id)" id="basicoString">Básico</h1>
+        <div id="basico">
+            <h3>Calculadora</h3>
+            <p>bla</p>
+            <p>bla</p>
+        </div>
+        <h1 onclick="show(this.id)" id="intermedString">Intermediário</h1>
+        <div id="intermediario">
+            <p>bla</p>
+        </div>
+        <h1 onclick="show(this.id)" id="avancString">Avançado</h1>
+        <div id="avancado">
+            <p>bla</p>
+        </div>
     </div>
 </body>
 </html>

@@ -52,3 +52,43 @@ body{
 }
 
 
+#basico, #intermediario, #avancado{
+    display:none
+}
+
+
+
+#basicoString:hover, #intermedString:hover, #avancString:hover{
+    cursor:pointer;
+    color: rgb(168, 115, 253);
+}
+
+
+.navigation li{
+    display:inline;
+}
+
+.navigation li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+}
+
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(168, 115, 253);
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(168, 115, 253);
+}
