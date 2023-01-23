@@ -13,9 +13,8 @@ body{
 
 #curriculo-top{
     background-color: rgb(168, 115, 253);
-    text-align: center;
     color: white;
-    padding:50px;
+
 }
 
 .curriculo{
@@ -40,13 +39,14 @@ body{
 .left{
     float:left;
     width: 40%;
+    margin-left: 20px;
     
 }
 
 
 .right{
     float:right;
-    width: 45%;
+    width: 40%;
     margin-left:50px;
 }
 
