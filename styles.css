@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-color: rgb(18, 5, 63);
+    color: white;
+}
+
+#homeButton{
+    text-align: center;
+    size:500px
+}
+
+
+
+#curriculo-top{
+    background-color: rgb(168, 115, 253);
+    text-align: center;
+    color: white;
+    padding:50px;
+}
+
+#curriculo-mid{
+    margin:20px
+}
+
+#curriculo-mid h3{
+    color: rgb(168, 115, 253);
+}
+
+#choices{
+    text-align: center;
+}
+
+.left{
+    float:left;
+    width: 45%;
+}
+
+
+.right{
+    float:right;
+    width: 45%;
+    margin-left:50px;
+}
+
+
