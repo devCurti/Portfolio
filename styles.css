@@ -18,7 +18,7 @@ body{
 
 }
 
-.curriculo{
+.curriculo, .container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minxmax(200px, 1fr));
     gap:20px;
@@ -92,3 +92,42 @@ a{
 a:hover{
     color: rgb(168, 115, 253);
 }
+
+.containerImg{
+    margin:50px;
+}
+
+.textContainer{
+    text-align: center;
+    text-justify: inherit;
+}
+
+
+.leftImg{
+    width: 20%;
+    height: 20%;
+    float:left;
+    object-fit: contain;
+    border: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 2px 5px 10px black;
+}
+
+.rightImg{
+    width: 30%;
+    height: 50%;
+    float:right;
+    object-fit: contain;
+    border: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px black;
+    margin: 20px;
+}
+
+@media all and (max-width: 480px) {
+    img, .leftImg, .rightImg {
+      width: 100%;
+      margin:0;
+    }
+  }
