@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    background-color: rgb(18, 5, 63);
+    color: white;
+}
+
+.purpleBGColor{
+    background-color: rgb(168, 118, 250);
+}
+
+.purpleColor{
+    color:rgb(133, 63, 245);
+}
+
+.shadows{
+    box-shadow: 5px 5px 10px black;
+}
