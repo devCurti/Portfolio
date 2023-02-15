@@ -19,3 +19,7 @@ body{
 .buttonLarge{
     width: 100px;
 }
+
+.projetos img{
+    border-radius: 5px;
+}
