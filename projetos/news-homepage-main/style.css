@@ -1,16 +1,19 @@
-body{
-    margin:0;
+.container-margin{
+    margin-right:160px;
+    margin-left:160px;
 }
+
 .myNavBar{
     text-align: center;
-    margin-left:70px;
-    margin-right:70px;
+    margin-left:160px;
+    margin-right:90px;
+    margin-top:70px;
 }
 
 #New{
     background-color: rgb(4, 4, 37);
     color: grey;
-    text-align: justify;
+    text-align: left;
     padding:20px;
 }
 
@@ -37,11 +40,11 @@ nav ul li:hover a, #New a:hover, .bottoms a:hover {
 }
 
 .btnRead{
-    background-color:rgb(233, 79, 92);
+    background-color:rgb(255, 87, 87);
     color:white;
-    padding: 5px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     border:none;
     letter-spacing: 2px;
 }
@@ -61,6 +64,11 @@ nav ul li:hover a, #New a:hover, .bottoms a:hover {
     .myNavBar{
         margin:30px;
     }
+
+    .container-margin{
+        margin-right:0px;
+        margin-left:0px;
+    }
   }
 
 
@@ -75,3 +83,9 @@ nav ul li:hover a, #New a:hover, .bottoms a:hover {
   .navbar .navbar-nav .nav-link:hover{
       color: #808080;
   }
+
+p{
+    font-size:14px;
+}
+
+
